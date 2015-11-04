@@ -1,0 +1,25 @@
+{
+	"html": {
+		"about_section": [
+			"<p>I like programming, in fact I find it very entertaining. I am passionate computing engineer. I am very interested in Software Engineering and due to this I am constantly looking for stuff related to this area to put it into practice.</p>",
+			"<h4>A little more</h4>",
+			"<p>I received my engineer degree from Universidad Simón Bolívar (Venezuela) in 2012 where I studied Computer Science. Here I learned how to use a lot of programming languages and many types of tools which could help me to do my job. After graduating, I had been working in the finance industry for 2 years. At this moment, I am working in private healthcare industry. I decided to make this change because I wanted to do somehting more interesting.</p>",
+			"<h4>Side project</h4>",
+			"<p>I recently participated in the Global Urban Datafest: Smart Cities Hackathon and won a prize for technical advice along with my teammates to promote the project in which we participated. I believe this is a great opportunity to know people who is related to another careers beyond IT and learn to work with them to carry out this project.</p>",
+			"<h4>Some skills tags</h4>",
+			"<p>I have great skills in .NET Framework and Javascript due to my past experience working as a .NET Developer and Javascript Programmer. I am also highly proficient in C/C++ and Java Programming. Moreover, I am constantly looking for new technologies, I like to try new things and find how to use them in my work. I have been developing an API in Node.js and, after all the learning process, I can say I like it. Similarly, I had tried another programming languages and frameworks that you can review in my resume.</p>",
+			"<h4>What I am looking for</h4>",
+			"<p>I want to work on interesting and challenging projects. I want to have new opportunities to develop my skills and learn new ones. I do not want to work in a place where the most important is the time you spend sitting in a chair doing nothing. I believe It is cool when a company understands that developers can be most productive if they have freedom to do their job without following offices schedules.</p>",
+			"<p>I am happy working independently or in a close team environment, and apply a positive attitude to every task I undertake. I want to be part of a team with clear vision and enthusiasm that want to create the best technology for people.</p>",
+            "<p>So you let me work with you?</p>"
+		],
+		"experience_section": [
+			{
+				"title": "Prueba",
+				"place": "Prueba",
+				"year": "2014",
+				"description": "UNA PRUEBA"
+			}
+		]
+	}
+}
