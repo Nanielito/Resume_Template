@@ -9,9 +9,7 @@ $(function() {
     };
     
     $.i18n.init(option, function() {
-        $("#about_section").i18n();
-        
-        $("#experience_section div.item").i18n();
+        $('[id$="_section"]').i18n();
     });
     
     /*======= Skillset *=======*/
