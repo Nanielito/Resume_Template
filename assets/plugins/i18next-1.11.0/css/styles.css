@@ -1,0 +1,17 @@
+.language .spanish {
+	background: transparent url(../images/flags/es.png) 0 0 no-repeat;
+	height: 12px;
+	width: 17px;
+	border: none;
+	cursor: pointer;
+	vertical-align: middle;
+}
+
+.language .english {
+	background: transparent url(../images/flags/gb.png) 0 0 no-repeat;
+	height: 12px;
+	width: 17px;
+	border: none;
+	cursor: pointer;
+	vertical-align: middle;
+}
