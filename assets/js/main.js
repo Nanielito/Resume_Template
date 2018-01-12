@@ -1,13 +1,15 @@
-jQuery(document).ready(function($) {
+$(function() {
 
-    language_complete = navigator.language.split("-");
-    language = (language_complete[0]);
-    language = 'es';
-    console.log("Sprache (root): %s", language);
-
-    i18n.init({ lng: language, debug: true }, function() {
-        // save to use translation function as resources are fetched
-        $("#contentInnerHTML").i18n();
+    var browserLang = navigator.language || navigator.userLanguage;
+    
+    var option = {
+        lng: (/^es-\d+$/).test(browserLang) ? 'es' : browserLang,
+        resGetPath: 'resources/locales/__lng__/__ns__.json',
+        fallbacking: 'es'
+    };
+    
+    $.i18n.init(option, function() {
+        $('[id$="_section"]').i18n();
     });
     
     /*======= Skillset *=======*/

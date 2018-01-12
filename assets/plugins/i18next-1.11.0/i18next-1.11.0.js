@@ -1249,6 +1249,7 @@
         $.t = $.t || translate;
     
         function parse(ele, key, options) {
+            console.log(ele.text() + ' ' + ele.html() + ' ' + key + ' ' + JSON.stringify(options));
             if (key.length === 0) return;
     
             var attr = 'text';
@@ -1276,7 +1277,8 @@
             } else if (attr === 'append') {
                 optionsToUse = o.defaultValueFromContent ? $.extend({ defaultValue: ele.html() }, options) : options;
                 ele.append($.t(key, optionsToUse));
-            } else if (attr.indexOf("data-") === 0) {
+            } 
+            else if (attr.indexOf("data-") === 0) {
                 var dataAttr = attr.substr(("data-").length);
                 optionsToUse = o.defaultValueFromContent ? $.extend({ defaultValue: ele.data(dataAttr) }, options) : options;
                 var translated = $.t(key, optionsToUse);

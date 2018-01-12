@@ -20,8 +20,7 @@
     <!-- github acitivity css -->
     <link rel="stylesheet" href="assets/plugins/github-activity/dist/github-activity-0.1.0.min.css">
     <link rel="stylesheet" href="assets/plugins/github-activity/dist/octicons/octions.min.css">
-    
-    
+        
     <!-- Theme CSS -->  
     <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -35,11 +34,12 @@
 <body>
     <!-- ******HEADER****** --> 
     <header class="header">
-        <div class="container">                       
+        
+        <div id="profile_section" class="container">                       
             <img class="profile-image img-responsive pull-left" src="assets/images/profile.png" alt="Daniel Ramirez" />
             <div class="profile-content pull-left">
                 <h1 class="name">Daniel Ramirez</h1>
-                <h2 class="desc">Back End Developer</h2>   
+                <h2 class="desc" data-i18n="[text]html.profile_section.occupation;"></h2>   
                 <ul class="social list-inline">
                     <li><a target="_blank" href="http://www.facebook.com/naniel"><i class="fa fa-facebook"></i></a></li>  
                     <li><a target="_blank" href="http://www.twitter.com/nanielito"><i class="fa fa-twitter"></i></a></li>
@@ -50,43 +50,23 @@
             </div><!--//profile-->
 			<div class="profile-content pull-right">
 				<ul class="list-inline">
-					<li><a class="btn btn-cta-primary pull-right" href="./files/CV-En.pdf" target="_blank"><i class="fa fa-paperclip"></i> Download Resume</a></li>
-					<li class="last-item"><a class="btn btn-cta-primary pull-right" href="mailto:danielramirezvi@gmail.com" target="_blank"><i class="fa fa-paper-plane"></i> Contact Me</a></li>
+                    <li><a class="btn btn-cta-primary pull-right" href="" target="_blank" data-i18n="[href]html.profile_section.file;[append]html.profile_section.download_label;"><i class="fa fa-paperclip"></i> </a></li>
+					<li class="last-item"><a class="btn btn-cta-primary pull-right" href="mailto:danielramirezvi@gmail.com" target="_blank" data-i18n="[append]html.profile_section.contact_label;"><i class="fa fa-paper-plane"></i> </a></li>
 				</ul>
 			</div>
+
 			
         </div><!--//container-->
     </header><!--//header-->
     <div class="container sections-wrapper">
         <div class="row">
             <div class="primary col-md-8 col-sm-12 col-xs-12">
-                <section class="about section">
+                
+                <section id="about_section" class="about section">
                     <div class="section-inner">
-                        <h2 class="heading">About Me</h2>
-                        <div class="content">
-                            <p>I like programming, in fact I find it very entertaining. I am passionate computing engineer. I am very interested in Software Engineering and due to this I am constantly looking for stuff related to this area to put it into practice.</p>
-
-							<h4>A little more</h4>
-							<p>I received my engineer degree from Universidad Simón Bolívar (Venezuela) in 2012 where I studied Computer Science. Here I learned how to use a lot of programming languages and many types of tools which could help me to do my job. After graduating, I had been working in the finance industry for 2 years. At this moment, I am working in private healthcare industry. I decided to make this change because I wanted to do somehting more interesting.</p>
-
-							<h4>Side project</h4>
-							<p>I recently participated in the Global Urban Datafest: Smart Cities Hackathon and won a prize for technical advice along with my teammates to promote the project in which we participated. I believe this is a great opportunity to know people who is related to another careers beyond IT and learn to work with them to carry out this project.</p>
-
-							<h4>Some skills tags</h4>
-							<p>I have great skills in .NET Framework and Javascript due to my past experience working as a .NET Developer and Javascript Programmer. I am also highly proficient in C/C++ and Java Programming. Moreover, I am constantly looking for new technologies, I like to try new things and find how to use them in my work. I have been developing an API in Node.js and, after all the learning process, I can say I like it. Similarly, I had tried another programming languages and frameworks that you can review in my resume.</p>
-
-							<h4>What I am looking for</h4>
-							<p>I want to work on interesting and challenging projects. I want to have new opportunities to develop my skills and learn new ones. I do not want to work in a place where the most important is the time you spend sitting in a chair doing nothing. I believe It is cool when a company understands that developers can be most productive if they have freedom to do their job without following offices schedules.</p>
-
-							<p>I am happy working independently or in a close team environment, and apply a positive attitude to every task I undertake. I want to be part of a team with clear vision and enthusiasm that want to create the best technology for people.</p>
-                        
-							<p>So you let me work with you?</p>
-                        </div><!--//content-->
-                        
-                        
-                        <div id="contentInnerHTML" data-i18n="[html]html.content;" class="content">
-                        </div><!--//content-->
-                        
+                        <h2 class="heading" data-i18n="[text]html.about_section.title;"></h2>
+                        <div class="content" data-i18n="[html]html.about_section.introduction;">
+                        </div><!--//content-->        
                     </div><!--//section-inner-->                 
                 </section><!--//section-->
     
@@ -94,148 +74,149 @@
                
                 
                 
-                <section class="experience section">
+                <section id="experience_section" class="experience section">
                     <div class="section-inner">
-                        <h2 class="heading">Work Experience</h2>
+                        <h2 class="heading" data-i18n="[text]html.experience_section.title;"></h2>
                         <div class="content">
                             <div class="item">
-                                <h3 class="title">Lead Developer - <span class="place"><a href="#">MediCitas</a></span> <span class="year">(2014 - Present)</span></h3>
-                                <p></p>
+                                <h3 class="title" data-i18n="[prepend]html.experience_section.jobs.0.position;"> - <span class="place"><a href="#" data-i18n="[prepend]html.experience_section.jobs.0.company;"></a></span> <span class="year" data-i18n="[text]html.experience_section.jobs.0.year;"></span></h3>
+                                <p data-i18n="[text]html.experience_section.jobs.0.description;"></p>
                             </div><!--//item-->
-							
                             <div class="item">
-                                <h3 class="title">System Analyst - <span class="place"><a href="#">BBVA Banco Provincial</a></span> <span class="year">(2012 - 2014)</span></h3>
-                                <p>I worked at the Department of Design and Develop (Workflow area). Here, I had to develop modules and applications for office network based on .NET framework (Back-End) and HTML/CSS/Javascript (Front-End).</p>
+                                <h3 class="title" data-i18n="[prepend]html.experience_section.jobs.1.position;"> - <span class="place"><a href="#" data-i18n="[prepend]html.experience_section.jobs.1.company;"></a></span> <span class="year" data-i18n="[text]html.experience_section.jobs.1.year;"></span></h3>
+                                <p data-i18n="[text]html.experience_section.jobs.1.description;"></p>
                             </div><!--//item-->
-                            
                             <div class="item">
-                                <h3 class="title">Intern - <span class="place"><a href="#">Venemergencia</a></span> <span class="year">(2011)</span></h3>
-                                <p>I worked at the Department of Technology. Here, I had to develop a mobile app for manage a kind of electronic health record related to its clients and other process like laboratory exams and ambulance services.</p>
+                                <h3 class="title" data-i18n="[prepend]html.experience_section.jobs.2.position;"> - <span class="place"><a href="#" data-i18n="[prepend]html.experience_section.jobs.2.company;"></a></span> <span class="year" data-i18n="[text]html.experience_section.jobs.2.year;"></span></h3>
+                                <p data-i18n="[text]html.experience_section.jobs.2.description;"></p>
                             </div><!--//item-->
-							
-							<div class="item">
-                                <h3 class="title">Teaching Assistant - <span class="place"><a href="#">Universidad Simón Bolívar</a></span> <span class="year">(2011 - 2012)</span></h3>
-                                <p>I was giving support to the Department of Computing and Information Technology. My work involved imparting practical classes in C programming and user interfaces.</p>
+                            <div class="item">
+                                <h3 class="title" data-i18n="[prepend]html.experience_section.jobs.3.position;"> - <span class="place"><a href="#" data-i18n="[prepend]html.experience_section.jobs.3.company;"></a></span> <span class="year" data-i18n="[text]html.experience_section.jobs.3.year;"></span></h3>
+                                <p data-i18n="[text]html.experience_section.jobs.3.description;"></p>
                             </div><!--//item-->
-                            
-							<div class="item">
-                                <h3 class="title">Teaching Assistant - <span class="place"><a href="#">Universidad Simón Bolívar</a></span> <span class="year">(2007 - 2008)</span></h3>
-                                <p>I worked at the Department of Mathematics. My work involved imparting practical classes of topics previously learnt in the course.</p>
+                            <div class="item">
+                                <h3 class="title" data-i18n="[prepend]html.experience_section.jobs.4.position;"> - <span class="place"><a href="#" data-i18n="[prepend]html.experience_section.jobs.4.company;"></a></span> <span class="year" data-i18n="[text]html.experience_section.jobs.4.year;"></span></h3>
+                                <p data-i18n="[text]html.experience_section.jobs.4.description;"></p>
                             </div><!--//item-->
-							
-                        </div><!--//content-->  
+                            <div class="item">
+                                <h3 class="title" data-i18n="[prepend]html.experience_section.jobs.5.position;"> - <span class="place"><a href="#" data-i18n="[prepend]html.experience_section.jobs.5.company;"></a></span> <span class="year" data-i18n="[text]html.experience_section.jobs.5.year;"></span></h3>
+                                <p data-i18n="[text]html.experience_section.jobs.5.description;"></p>
+                            </div><!--//item-->
+                        </div><!--//content-->
                     </div><!--//section-inner-->                 
                 </section><!--//section-->
-                <section class="github section">
+                
+                <section id="github_section" class="github section">
                     <div class="section-inner">
-                        <h2 class="heading">My GitHub</h2>                 
+                        <h2 class="heading" data-i18n="[text]html.github_section.title;"></h2>                 
                         <div id="ghfeed" class="ghfeed">
                         </div><!--//ghfeed-->
-                        
                     </div><!--//secton-inner-->
                 </section><!--//section-->
+                
             </div><!--//primary-->
+            
             <div class="secondary col-md-4 col-sm-12 col-xs-12">
                  <aside class="info aside section">
-                    <div class="section-inner">
-                        <h2 class="heading sr-only">Basic Information</h2>
+                    <div id="basic_info_section" class="section-inner">
+                        <h2 class="heading sr-only" data-i18n="[text]html.basic_info_section.title;"></h2>
                         <div class="content">
                             <ul class="list-unstyled">
-                                <li><i class="fa fa-map-marker"></i><span class="sr-only">Location:</span>Caracas, VE</li>
-                                <li><i class="fa fa-envelope-o"></i><span class="sr-only">Email:</span><a href="#">danielramirezvi@gmail.com</a></li>
-                                <li><i class="fa fa-link"></i><span class="sr-only">Website:</span><a href="#">http://www.nanielito.com.ve</a></li>
+                                <li data-i18n="[append]html.basic_info_section.location.value;"> <i class="fa fa-map-marker"></i><span class="sr-only" data-i18n="[text]html.basic_info_section.location.label;"></span></li>
+                                <li> <i class="fa fa-envelope-o"></i><span class="sr-only" data-i18n="[text]html.basic_info_section.email.label;"></span><a href="#" data-i18n="[text]html.basic_info_section.email.value;"></a></li>
+                                <li> <i class="fa fa-link"></i><span class="sr-only" data-i18n="[text]html.basic_info_section.website.label;"></span><a href="#" data-i18n="[text]html.basic_info_section.website.value;"></a></li>
                             </ul>
                         </div><!--//content-->  
                     </div><!--//section-inner-->                 
                 </aside><!--//aside-->
                 
                 <aside class="skills aside section">
-                    <div class="section-inner">
-                        <h2 class="heading">Skills</h2>
+                    <div id="skills_section" class="section-inner">
+                        <h2 class="heading" data-i18n="[text]html.skills_section.title;">Skills</h2>
                         <div class="content">
                             <p class="intro"></p>
                             
                             <div class="skillset">
                                
 								<div class="item">
-                                    <h3 class="level-title">.NET Framework<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="I had been developing apps for 3 years using C#, Entity Framework and MVC 3/4">Expert</span></h3>
+                                    <h3 class="level-title" data-i18n="[prepend]html.skills_section.skills.0.skill;"><span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="" data-i18n="[title]html.skills_section.skills.0.description;[text]html.skills_section.skills.0.level;"></span></h3>
                                     <div class="level-bar">
-                                        <div class="level-bar-inner" data-level="85%">
+                                        <div class="level-bar-inner" data-level="" data-i18n="[data-level]html.skills_section.skills.0.percent;">
                                         </div>                                      
                                     </div>
-                                </div>
+                                </div><!--//item-->
 							   
                                 <div class="item">
-                                    <h3 class="level-title">C/C++<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="I had developed many programs to do some specific task in Unix environments also I had used it in videogame development using Open GL">Pro</span></h3>
+                                    <h3 class="level-title" data-i18n="[prepend]html.skills_section.skills.1.skill;"><span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="" data-i18n="[title]html.skills_section.skills.1.description;[text]html.skills_section.skills.1.level;"></span></h3>
                                     <div class="level-bar">
-                                        <div class="level-bar-inner" data-level="70%">
+                                        <div class="level-bar-inner" data-level="" data-i18n="[data-level]html.skills_section.skills.1.percent;">
                                         </div>                                      
                                     </div>
-                                </div>
+                                </div><!--//item-->
 								
 								<div class="item">
-                                    <h3 class="level-title">Java<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="JDBC, JSP Servlets, Struts, Java ME (SDK Android/BlackBerry)">Pro</span></h3>
+                                    <h3 class="level-title" data-i18n="[prepend]html.skills_section.skills.2.skill;"><span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="" data-i18n="[title]html.skills_section.skills.2.description;[text]html.skills_section.skills.2.level;"></span></h3>
                                     <div class="level-bar">
-                                        <div class="level-bar-inner" data-level="75%">
+                                        <div class="level-bar-inner" data-level="" data-i18n="[data-level]html.skills_section.skills.2.percent;">
                                         </div>                                      
                                     </div>
-                                </div>
+                                </div><!--//item-->
                                 
-								<div class="item">
-                                    <h3 class="level-title">Javascript &amp; jQuery<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="I used it for develop asynchronous calls at client level">Pro</span></h3>
+                                <div class="item">
+                                    <h3 class="level-title" data-i18n="[prepend]html.skills_section.skills.3.skill;"><span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="" data-i18n="[title]html.skills_section.skills.3.description;[text]html.skills_section.skills.3.level;"></span></h3>
                                     <div class="level-bar">
-                                        <div class="level-bar-inner" data-level="75%">
+                                        <div class="level-bar-inner" data-level="" data-i18n="[data-level]html.skills_section.skills.3.percent;">
                                         </div>                                      
                                     </div>
-                                </div>
+                                </div><!--//item-->
 								
 								<div class="item">
-                                    <h3 class="level-title">Node.js<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="These days I had developed RESTFul API's using Express">Intermediate</span></h3>
+                                    <h3 class="level-title" data-i18n="[prepend]html.skills_section.skills.4.skill;"><span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="" data-i18n="[title]html.skills_section.skills.4.description;[text]html.skills_section.skills.4.level;"></span></h3>
                                     <div class="level-bar">
-                                        <div class="level-bar-inner" data-level="50%">
+                                        <div class="level-bar-inner" data-level="" data-i18n="[data-level]html.skills_section.skills.4.percent;">
                                         </div>                                      
                                     </div>
-                                </div>
+                                </div><!--//item-->
                                 
 								<div class="item">
-                                    <h3 class="level-title">DBMS<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="MS SQLServer, Oracle SQL, PostgresSQL, MySQL">Expert</span></h3>
+                                    <h3 class="level-title" data-i18n="[prepend]html.skills_section.skills.5.skill;"><span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="" data-i18n="[title]html.skills_section.skills.5.description;[text]html.skills_section.skills.5.level;"></span></h3>
                                     <div class="level-bar">
-                                        <div class="level-bar-inner" data-level="80%">
+                                        <div class="level-bar-inner" data-level="" data-i18n="[data-level]html.skills_section.skills.5.percent;">
                                         </div>                                      
                                     </div>
-                                </div>
+                                </div><!--//item-->
 								
 								<div class="item">
-                                    <h3 class="level-title">HTML5, CSS3<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="I used it for web design">Pro</span></h3>
+                                    <h3 class="level-title" data-i18n="[prepend]html.skills_section.skills.6.skill;"><span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="" data-i18n="[title]html.skills_section.skills.6.description;[text]html.skills_section.skills.6.level;"></span></h3>
                                     <div class="level-bar">
-                                        <div class="level-bar-inner" data-level="68%">
+                                        <div class="level-bar-inner" data-level="" data-i18n="[data-level]html.skills_section.skills.6.percent;">
                                         </div>                                      
                                     </div>
-                                </div>
+                                </div><!--//item-->
                                 
 								<div class="item">
-                                    <h3 class="level-title">PHP<span class="level-label">Pro</span></h3>
+                                    <h3 class="level-title" data-i18n="[prepend]html.skills_section.skills.7.skill;"><span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="" data-i18n="[title]html.skills_section.skills.7.description;[text]html.skills_section.skills.7.level;"></span></h3>
                                     <div class="level-bar">
-                                        <div class="level-bar-inner" data-level="60%">
+                                        <div class="level-bar-inner" data-level="" data-i18n="[data-level]html.skills_section.skills.7.percent;">
                                         </div>                                      
                                     </div>
-                                </div>
+                                </div><!--//item-->
 								
                                 <div class="item">
-                                    <h3 class="level-title">Ruby<span class="level-label">Intermediate</span></h3>
+                                    <h3 class="level-title" data-i18n="[prepend]html.skills_section.skills.8.skill;"><span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="" data-i18n="[title]html.skills_section.skills.8.description;[text]html.skills_section.skills.8.level;"></span></h3>
                                     <div class="level-bar">
-                                        <div class="level-bar-inner" data-level="45%">
+                                        <div class="level-bar-inner" data-level="" data-i18n="[data-level]html.skills_section.skills.8.percent;">
                                         </div>                                      
                                     </div>
-                                </div>
+                                </div><!--//item-->
 								
 								<div class="item">
-                                    <h3 class="level-title">Prolog<span class="level-label">Pro</span></h3>
+                                    <h3 class="level-title" data-i18n="[prepend]html.skills_section.skills.9.skill;"><span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="" data-i18n="[title]html.skills_section.skills.9.description;[text]html.skills_section.skills.9.level;"></span></h3>
                                     <div class="level-bar">
-                                        <div class="level-bar-inner" data-level="80%">
+                                        <div class="level-bar-inner" data-level="" data-i18n="[data-level]html.skills_section.skills.9.percent;">
                                         </div>                                      
                                     </div>
-                                </div>						
+                                </div><!--//item-->		
                                 
                                 <!--p><a class="more-link" href="#"><i class="fa fa-external-link"></i> More on Coderwall</a></p--> 
                             </div>              
@@ -261,29 +242,29 @@
                 </aside-->
                 
                 <aside class="education aside section">
-                    <div class="section-inner">
-                        <h2 class="heading">Education</h2>
+                    <div id="education_section" class="section-inner">
+                        <h2 class="heading" data-i18n="[text]html.education_section.title;"></h2>
                         <div class="content">
                             <div class="item">
-                                <h3 class="title"><i class="fa fa-graduation-cap"></i> Ingeniero en Computación</h3>
-                                <h4 class="university">Universidad Simón Bolívar <span class="year">(2005-2012)</span></h4>
+                                <h3 class="title" data-i18n="[append]html.education_section.bachelor_degree.degree;"><i class="fa fa-graduation-cap"></i> </h3>
+                                <h4 class="university" data-i18n="[prepend]html.education_section.bachelor_degree.university;"> <span class="year" data-i18n="[text]html.education_section.bachelor_degree.year;"></span></h4>
                             </div><!--//item-->
                         </div><!--//content-->
                     </div><!--//section-inner-->
                 </aside><!--//section-->
                             
                 <aside class="languages aside section">
-                    <div class="section-inner">
-                        <h2 class="heading">Languages</h2>
+                    <div id="language_section" class="section-inner">
+                        <h2 class="heading" data-i18n="[text]html.language_section.title;"></h2>
                         <div class="content">
                             <ul class="list-unstyled">
                                 <li class="item">
-                                    <span class="title"><strong>Spanish:</strong></span>
-                                    <span class="level">Native Speaker <br class="visible-xs"/><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </span>
+                                    <span class="title"><strong data-i18n="[text]html.language_section.languages.0.language;"></strong></span>
+                                    <span class="level" data-i18n="[prepend]html.language_section.languages.0.level;"> <br class="visible-xs"/><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i></span>
                                 </li><!--//item-->
                                 <li class="item">
-                                    <span class="title"><strong>English:</strong></span>
-                                    <span class="level">Professional Proficiency <br class="visible-sm visible-xs"/><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-half"></i></span>
+                                    <span class="title"><strong data-i18n="[text]html.language_section.languages.1.language;"></strong></span>
+                                    <span class="level" data-i18n="[prepend]html.language_section.languages.1.level;"> <br class="visible-sm visible-xs"/><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-half"></i></span>
                                 </li><!--//item-->
                             </ul>
                         </div><!--//content-->
@@ -293,8 +274,8 @@
                 <!-- Blog posts -->
                 
                 <aside class="list music aside section">
-                    <div class="section-inner">
-                        <h2 class="heading">Favourite coding music</h2>
+                    <div id="list_music_section" class="section-inner">
+                        <h2 class="heading" data-i18n="[text]html.list_music_section.title;"></h2>
                         <div class="content">
                             <ul class="list-unstyled">
                                 <li><i class="fa fa-headphones"></i> <a href="https://www.youtube.com/watch?v=TLV4_xaYynY">All along the watchover - The Jimi Hendrix Experience</a></li>
@@ -307,14 +288,14 @@
                 </aside><!--//section-->
                 
                 <aside class="list events aside section">
-                    <div class="section-inner">
-                        <h2 class="heading">Attendance to events</h2>
+                    <div id="list_event_section" class="section-inner">
+                        <h2 class="heading" data-i18n="[text]html.list_event_section.title;"></h2>
                         <div class="content">
                             <ul class="list-unstyled">
-                                <li><i class="fa fa-calendar"></i> <a href="http://www.global.datafest.net/cities/caracas" target="_blank">Caracas Global Urban Datafest Smart Cities Hackathon</a> (Caracas - March 2015) <br> Caracas Metropolitan Mayor Award (Technical Assistance)</li>
-                                <li><i class="fa fa-calendar"></i> <a href="#">III Jornadas Interuniversitaras de Ciencias de la Computación</a> (Caracas - May 2010)</li>
-								<li><i class="fa fa-calendar"></i> <a href="#">II Jornadas Interuniversitaras de Ciencias de la Computación</a> (Caracas - May 2009)</li>
-								<li><i class="fa fa-calendar"></i> <a href="#">III Jornadas de Ingeniería de la Computación</a> (Caracas - Nov 2006)</li>
+                                <li data-i18n="[append]html.list_event_section.events.0.location;[append]html.list_event_section.events.0.observation;"><i class="fa fa-calendar"></i> <a href="" target="" data-i18n="[href]html.list_event_section.events.0.link;[target]html.list_event_section.events.0.target;[text]html.list_event_section.events.0.event;"></a> </li>
+                                <li data-i18n="[append]html.list_event_section.events.1.location;[append]html.list_event_section.events.1.observation;"><i class="fa fa-calendar"></i> <a href="" target="" data-i18n="[href]html.list_event_section.events.1.link;[target]html.list_event_section.events.1.target;[text]html.list_event_section.events.1.event;"></a> </li>
+                                <li data-i18n="[append]html.list_event_section.events.2.location;[append]html.list_event_section.events.2.observation;"><i class="fa fa-calendar"></i> <a href="" target="" data-i18n="[href]html.list_event_section.events.2.link;[target]html.list_event_section.events.2.target;[text]html.list_event_section.events.2.event;"></a> </li>
+                                <li data-i18n="[append]html.list_event_section.events.3.location;[append]html.list_event_section.events.3.observation;"><i class="fa fa-calendar"></i> <a href="" target="" data-i18n="[href]html.list_event_section.events.3.link;[target]html.list_event_section.events.3.target;[text]html.list_event_section.events.3.event;"></a> </li>
                             </ul>
                         </div><!--//content-->
                     </div><!--//section-inner-->
@@ -336,7 +317,7 @@
     <script type="text/javascript" src="assets/plugins/jquery-migrate-1.2.1.min.js"></script>
     <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>    
     <script type="text/javascript" src="assets/plugins/jquery-rss/dist/jquery.rss.min.js"></script> 
-    <script type="text/javascript" src="assets/plugins/i18next-1.11.0/i18next-1.5.6.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/i18next-1.11.0/i18next-1.11.0.min.js"></script>
     <!-- github activity plugin -->
     <script type="text/javascript" src="assets/plugins/github-activity/dist/mustache/mustache.min.js"></script>
     <script type="text/javascript" src="assets/plugins/github-activity/dist/github-activity-0.1.0.min.js"></script>
