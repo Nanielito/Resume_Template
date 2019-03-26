@@ -11,9 +11,9 @@
 			"introduction": [
 				"<p>I like programming, in fact I find it very entertaining. I am passionate computing engineer. I am very interested in Software Engineering and due to this I am constantly looking for stuff related to this area to put it into practice.</p>",
 				"<h4>A little more</h4>",
-				"<p>I received my engineer degree from Universidad Simón Bolívar (Venezuela) in 2012 where I studied Computer Science. Here I learned how to use a lot of programming languages and many types of tools which could help me to do my job. After graduating, I had been working in the finance industry for 2 years. At this moment, I am working in private healthcare industry. I decided to make this change because I wanted to do somehting more interesting.</p>",
+				"<p>I received my engineer degree from Universidad Simón Bolívar (Venezuela) in 2012 where I studied Computer Science. Here I learned how to use a lot of programming languages and many types of tools which could help me to do my job. After graduating, I had been working in the finance industry for 2 years. Then, I worked in private healthcare industry. I decided to make this change because I wanted to do something more interesting. At this moment, I work for a company which is related to automatization of electoral process around the world.</p>",
 				"<h4>Side project</h4>",
-				"<p>I recently participated in the Global Urban Datafest: Smart Cities Hackathon and won a prize for technical advice along with my teammates to promote the project in which we participated. I believe this is a great opportunity to know people who is related to another careers beyond IT and learn to work with them to carry out this project.</p>",
+				"<p>In 2015, I participated in the Global Urban Datafest: Smart Cities Hackathon and won a prize for technical advice along with my teammates to promote the project in which we participated. This was a great opportunity to know people who is related to another careers beyond IT and learn to work with them to carry out this project.</p>",
 				"<h4>Some skills tags</h4>",
 				"<p>I have great skills in .NET Framework and Javascript due to my past experience working as a .NET Developer and Javascript Programmer. I am also highly proficient in C/C++ and Java Programming. Moreover, I am constantly looking for new technologies, I like to try new things and find how to use them in my work. I have been developing an API in Node.js and, after all the learning process, I can say I like it. Similarly, I had tried another programming languages and frameworks that you can review in my resume.</p>",
 				"<h4>What I am looking for</h4>",
@@ -29,7 +29,7 @@
 					"position": "Software Engineer",
 					"company": "Smartmatic",
 					"year": "(2015 - Current)",
-					"description": ""
+					"description": "As member of Electoral Solutions Department, I had been involved in multiple projects for electoral events in Venezuela, Argentina, Philippines, Uganda among others in the different company products. I have worked as a Java developer for server side applications as well as a C/C++ developer for client side platform (voting machines)."
 				},
 				{
 					"position": "Lead Developer",
@@ -70,7 +70,7 @@
 			"title": "Basic Information",
 			"location": {
 				"label": "Location:",
-				"value": "Caracas, VE"
+				"value": "Buenos Aires, AR"
 			},
 			"email": {
 				"label": "Email:",
@@ -98,7 +98,7 @@
 				},
 				{
 					"skill": "Java",
-					"description": "JDBC, JSP Servlets, Struts, Java ME (SDK Android/BlackBerry)",
+					"description": "JDBC, JSP Servlets, Struts, Java ME (SDK Android/BlackBerry), Spring/SpringBoot",
 					"level": "Pro",
 					"percent": "75%"
 				},
@@ -110,7 +110,7 @@
 				},
 				{
 					"skill": "Node.js",
-					"description": "These days I had developed RESTFul API's using Express",
+					"description": "I had developed RESTFul API's using Express",
 					"level": "Intermediate",
 					"percent": "60%"
 				},

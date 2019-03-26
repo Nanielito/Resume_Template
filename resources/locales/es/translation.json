@@ -11,9 +11,9 @@
 			"introduction": [
 				"<p>Me gusta programar, de hecho lo encuentro muy entretenido. Soy un apasionado ingeniero en computación. Estoy muy interesado en la Ingeniería de Software y debido a esto estoy en constante búsqueda de materiales relacionados con el área para ponerlos en practica.</p>",
 				"<h4>Un poco más</h4>",
-				"<p>Obtuve mi título universitario en la Universidad Simón Bolívar (Venezuela) en 2012 donde estudié Ingeniería en Computación. Aquí aprendí a utilizar varios lenguajes de programación y muchos tipos de herramientas que pudieran ayudarme a completar mis labores. Después de graduarme,estuve trabajando en la industria financiera durante 2 años. Actualmente, estoy trabajando para la industria de salud privada. Decidí realizar este cambio ya que quería involucrarme en algo más interesante.</p>",
+				"<p>Obtuve mi título universitario en la Universidad Simón Bolívar (Venezuela) en 2012 donde estudié Ingeniería en Computación. Aquí aprendí a utilizar varios lenguajes de programación y muchos tipos de herramientas que pudieran ayudarme a completar mis labores. Después de graduarme,estuve trabajando en la industria financiera durante 2 años. Luego, trabajé para la industria de salud privada. Decidí realizar este cambio ya que quería involucrarme en algo más interesante. Actualmente, trabajo con un empresa que se encarga de automatizar procesos electorales alrededor del mundo.</p>",
 				"<h4>Projectos personales</h4>",
-				"<p>Recientemente participé en el Global Urban Datafest: Smart Cities Hackathon y gané un premio para asistencia técnica junto con mis compañeros de equipo para desarrollar el proyecto con el cual participamos. Creo que es una gran oportunidad para conocer personas que se encuentren relacionadas a otras carreras no tecnológicas y aprender a trabajar con ellos para llevar a cabo este proyecto</p>",
+				"<p>En 2015, participé en el Global Urban Datafest: Smart Cities Hackathon y gané un premio para asistencia técnica junto con mis compañeros de equipo para desarrollar el proyecto con el cual participamos. Esta fue una gran oportunidad para conocer personas que se encuentran relacionadas a otras carreras no tecnológicas y aprender a trabajar con ellos para llevar a cabo este proyecto</p>",
 				"<h4>Algunas destrezas</h4>",
 				"<p>Poseo destrezas con .NET Framework y Javascript debido a mi experiencia trabajando como desarrollador .NET y programador en Javascript. También soy muy bueno programando con C/C++ y Java. Por otra parte, estoy en constante búsqueda de nuevas tecnologías, me gusta probar nuevas cosas y encontrar formas de usarlas en mi trabajo. He estado desarrollando un API en Node.js y, después de todo el proceso de aprendizaje, puedo decir que me gusta. Similarmente, he utilizado otros lenguajes de programación y frameworks que pueden validar en mi sintesis curricular.</p>",
 				"<h4>Qué estoy buscando</h4>",
@@ -29,7 +29,7 @@
 					"position": "Ingeniero de Software",
 					"company": "Smartmatic",
 					"year": "(2015 - Actual)",
-					"description": ""
+					"description": "Como miembro del Departamento de Soluciones Electorales, he estado involucrado con varios proyectos en Venezuela, Argentina, Filipinas, Uganda entre otros en los diferentes productos de la compañía. He trabajado tanto como desarrollador Java para aplicaciones de servidor como desarrollador C/C++ para aplicaciones del cliente (máquinas de votación)."
 				},
 				{
 					"position": "Líder Técnico",
@@ -70,7 +70,7 @@
 			"title": "Información Básica",
 			"location": {
 				"label": "Ubicación:",
-				"value": "Caracas, VE"
+				"value": "Buenos Aires, AR"
 			},
 			"email": {
 				"label": "Correo:",
@@ -86,7 +86,7 @@
 			"skills": [
 				{
 					"skill": ".NET Framework",
-					"description": "He estado desarrollando aplicaciones durante 3 años utilizando C#, Entity Framework y MVC 3/4",
+					"description": "He desarrollado aplicaciones durante 3 años utilizando C#, Entity Framework y MVC 3/4",
 					"level": "Experto",
 					"percent": "85%"
 				},
@@ -98,7 +98,7 @@
 				},
 				{
 					"skill": "Java",
-					"description": "JDBC, JSP Servlets, Struts, Java ME (SDK Android/BlackBerry)",
+					"description": "JDBC, JSP Servlets, Struts, Java ME (SDK Android/BlackBerry), Spring/SpringBoot",
 					"level": "Profesional",
 					"percent": "75%"
 				},
@@ -110,7 +110,7 @@
 				},
 				{
 					"skill": "Node.js",
-					"description": "En estos días he desarrollado un API RESTFul utilizando Express",
+					"description": "He desarrollado APIs RESTFul utilizando Express",
 					"level": "Intermedio",
 					"percent": "60%"
 				},
