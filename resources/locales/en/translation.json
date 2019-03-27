@@ -86,7 +86,7 @@
 			"skills": [
 				{
 					"skill": ".NET Framework",
-					"description": "I had been developing apps for 3 years using C#, Entity Framework and MVC 3/4",
+					"description": "I developed apps for 3 years using C#, Entity Framework and MVC 3/4",
 					"level": "Expert",
 					"percent": "85%"
 				},
@@ -116,7 +116,7 @@
 				},
 				{
 					"skill": "DBMS",
-					"description": "MS SQLServer, Oracle SQL, PostgresSQL, MySQL",
+					"description": "MS SQLServer, Oracle SQL, PostgreSQL, MySQL, MongoDB",
 					"level": "Expert",
 					"percent": "80%"
 				},
@@ -143,6 +143,18 @@
 					"description": "",
 					"level": "Pro",
 					"percent": "80%"
+				},
+				{
+					"skill": "Docker",
+					"description": "",
+					"level": "Profesional",
+					"percent": "75%"
+				},
+				{
+					"skill": "Jenkins",
+					"description": "",
+					"level": "Profesional",
+					"percent": "70%"
 				}
 			]
 		},
