@@ -26,10 +26,16 @@
 			"title": "Experiencia Laboral",
 			"jobs": [
 				{
+					"position": "Desarrollador de Software (Servicios de Juegos)",
+					"company": "Jam City",
+					"year": "(2019 - Current)",
+					"description": "Como miembro del equipo de Servicios de Juegos, he estado involucrado en el desarrollo y mantenimiento de funcionalidades vitales para la vida de los videojuegos que desarrollamos en la empresa. He trabajado tanto como desarrollador Java para aplicaciones de servidor como desarrollador C# y AS3 para aplicaciones de cliente."
+				},
+				{
 					"position": "Ingeniero de Software",
 					"company": "Smartmatic",
-					"year": "(2015 - Actual)",
-					"description": "Como miembro del Departamento de Soluciones Electorales, he estado involucrado con varios proyectos en Venezuela, Argentina, Filipinas, Uganda entre otros en los diferentes productos de la compañía. He trabajado tanto como desarrollador Java para aplicaciones de servidor como desarrollador C/C++ para aplicaciones del cliente (máquinas de votación)."
+					"year": "(2015 - 2019)",
+					"description": "Como miembro del Departamento de Soluciones Electorales, estuve involucrado con varios proyectos en Venezuela, Argentina, Filipinas, Uganda entre otros en los diferentes productos de la compañía. Trabajé tanto como desarrollador Java para aplicaciones de servidor como desarrollador C/C++ para aplicaciones del cliente (máquinas de votación)."
 				},
 				{
 					"position": "Líder Técnico",
@@ -78,7 +84,7 @@
 			},
 			"website": {
 				"label": "Sitio Web:",
-				"value": "http://www.nanielito.com.ve"
+				"value": "http://www.nanielito.github.io"
 			}
 		},
 		"skills_section": {
@@ -86,7 +92,7 @@
 			"skills": [
 				{
 					"skill": ".NET Framework",
-					"description": "Desarrollé aplicaciones durante 3 años utilizando C#, Entity Framework y MVC 3/4",
+					"description": "Desarrollé aplicaciones durante 3 años utilizando C#, Entity Framework y MVC 3/4. Actualmente utilizo .NET Core para desarrollar aplicaciones de cliente que son usadas por videojuegos.",
 					"level": "Experto",
 					"percent": "85%"
 				},
@@ -100,7 +106,7 @@
 					"skill": "Java",
 					"description": "JDBC, JSP Servlets, Struts, Java ME (SDK Android/BlackBerry), Spring/SpringBoot",
 					"level": "Profesional",
-					"percent": "75%"
+					"percent": "80%"
 				},
 				{
 					"skill": "Javascript &amp; jQuery",
@@ -116,7 +122,7 @@
 				},
 				{
 					"skill": "DBMS",
-					"description": "MS SQLServer, Oracle SQL, PostgreSQL, MySQL, MongoDB",
+					"description": "MS SQLServer, Oracle SQL, PostgreSQL, MySQL, MongoDB, Couchbase, Redis",
 					"level": "Experto",
 					"percent": "80%"
 				},
@@ -124,12 +130,18 @@
 					"skill": "HTML5, CSS3",
 					"description": "En diseño web",
 					"level": "Profesional",
-					"percent": "68%"
+					"percent": "70%"
 				},
 				{
 					"skill": "PHP",
 					"description": "",
-					"level": "Profesional",
+					"level": "Intermediate",
+					"percent": "60%"
+				},
+				{
+					"skill": "Python",
+					"description": "",
+					"level": "Intermedio",
 					"percent": "60%"
 				},
 				{
@@ -137,6 +149,12 @@
 					"description": "",
 					"level": "Intermedio",
 					"percent": "45%"
+				},
+				{
+					"skill": "Bash",
+					"description": "",
+					"level": "Intermedio",
+					"percent": "60%"
 				},
 				{
 					"skill": "Prolog",

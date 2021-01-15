@@ -26,16 +26,22 @@
 			"title": "Work Experience",
 			"jobs": [
 				{
+					"position": "Software Developer (Game Services)",
+					"company": "Jam City",
+					"year": "(2019 - Current)",
+					"description": "As a member of the Game Services team, I have been involved in the development and maintenance of vital functionalities for the video games which are developed by our game teams. I have worked both as a Java developer for server applications and as well as a C# and AS3 developer for client applications."
+				},
+				{
 					"position": "Software Engineer",
 					"company": "Smartmatic",
-					"year": "(2015 - Current)",
-					"description": "As member of Electoral Solutions Department, I had been involved in multiple projects for electoral events in Venezuela, Argentina, Philippines, Uganda among others in the different company products. I have worked as a Java developer for server side applications as well as a C/C++ developer for client side platform (voting machines)."
+					"year": "(2015 - 2019)",
+					"description": "As a member of Electoral Solutions Department, I had been involved in multiple projects for electoral events in Venezuela, Argentina, Philippines, Uganda among others in the different company products. I had worked as a Java developer for server side applications as well as a C/C++ developer for client side platform (voting machines)."
 				},
 				{
 					"position": "Lead Developer",
 					"company": "MediCitas",
 					"year": "(2014 - 2015)",
-					"description": "As Lead Programmer, I was responsible both in the design and the underlying architecture for the new software solutions inside the company. I had to develop database components based on MS SQL Server and a web service layer on .NET framework."
+					"description": "As a Lead Programmer, I was responsible both in the design and the underlying architecture for the new software solutions inside the company. I had to develop database components based on MS SQL Server and a web service layer on .NET framework."
 				},
 				{
 					"position": "System Analyst",
@@ -47,13 +53,13 @@
 					"position": "Intern",
 					"company": "Venemergencia",
 					"year": "(2011)",
-					"description": "I worked at the Department of Technology. Here, I had to develop a mobile app for manage a kind of electronic health record related to its clients and other process like laboratory exams and ambulance services."
+					"description": "I worked at the Department of Technology. Here, I had to develop a mobile app for manage a kind of electronic health record related to its clients and other process like lab exams and ambulance services."
 				},
 				{
 					"position": "Teaching Assistant",
 					"company": "Universidad Simón Bolívar",
 					"year": "(2011 - 2012)",
-					"description": "I was giving support to the Department of Computing and Information Technology. My work involved imparting practical classes in C programming and user interfaces."
+					"description": "I worked at the Department of Computing and Information Technology. My work involved imparting practical classes in C programming and user interfaces."
 				},
 				{
 					"position": "Teaching Assistant",
@@ -78,7 +84,7 @@
 			},
 			"website": {
 				"label": "Website:",
-				"value": "http://www.nanielito.com.ve"
+				"value": "http://www.nanielito.github.io"
 			}
 		},
 		"skills_section": {
@@ -86,13 +92,13 @@
 			"skills": [
 				{
 					"skill": ".NET Framework",
-					"description": "I developed apps for 3 years using C#, Entity Framework and MVC 3/4",
+					"description": "I developed apps for 3 years using C#, Entity Framework and MVC 3/4. Currently, I'm using .NET Core to develop client side apps which are used by video games.",
 					"level": "Expert",
 					"percent": "85%"
 				},
 				{
 					"skill": "C/C++",
-					"description": "I had developed many programs to do some specific task in Unix environments also I had used it in videogame development using Open GL",
+					"description": "I had developed many programs to do some specific task in Unix environments, I also had used it in videogame development using Open GL",
 					"level": "Pro",
 					"percent": "70%"
 				},
@@ -100,7 +106,7 @@
 					"skill": "Java",
 					"description": "JDBC, JSP Servlets, Struts, Java ME (SDK Android/BlackBerry), Spring/SpringBoot",
 					"level": "Pro",
-					"percent": "75%"
+					"percent": "80%"
 				},
 				{
 					"skill": "Javascript &amp; jQuery",
@@ -116,20 +122,26 @@
 				},
 				{
 					"skill": "DBMS",
-					"description": "MS SQLServer, Oracle SQL, PostgreSQL, MySQL, MongoDB",
+					"description": "MS SQLServer, Oracle SQL, PostgreSQL, MySQL, MongoDB, Couchbase, Redis",
 					"level": "Expert",
 					"percent": "80%"
 				},
 				{
 					"skill": "HTML5, CSS3",
-					"description": "I used it for web design",
+					"description": "Web design",
 					"level": "Pro",
-					"percent": "68%"
+					"percent": "70%"
 				},
 				{
 					"skill": "PHP",
 					"description": "",
-					"level": "Pro",
+					"level": "Intermediate",
+					"percent": "60%"
+				},
+				{
+					"skill": "Python",
+					"description": "",
+					"level": "Intermediate",
 					"percent": "60%"
 				},
 				{
@@ -137,6 +149,12 @@
 					"description": "",
 					"level": "Intermediate",
 					"percent": "45%"
+				},
+				{
+					"skill": "Bash",
+					"description": "",
+					"level": "Intermediate",
+					"percent": "60%"
 				},
 				{
 					"skill": "Prolog",
@@ -147,13 +165,13 @@
 				{
 					"skill": "Docker",
 					"description": "",
-					"level": "Profesional",
+					"level": "Pro",
 					"percent": "75%"
 				},
 				{
 					"skill": "Jenkins",
 					"description": "",
-					"level": "Profesional",
+					"level": "Pro",
 					"percent": "70%"
 				}
 			]

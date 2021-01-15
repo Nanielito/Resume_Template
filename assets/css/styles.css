@@ -107,12 +107,10 @@ a.dotted-link:hover {
 }
 /*
 iframe {
-
     .header {
         padding: 0;
     }
 }
-
 .iframe-wrapper {
     overflow: auto;
     -webkit-overflow-scrolling:touch;
